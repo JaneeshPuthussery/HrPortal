@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "USER-HR-001",
+      "name": "HR Admin",
+      "email": "hr@portal.com",
+      "password": "admin123",
+      "role": "HR"
+    },
+    {
+      "id": "jBCDvRbCVzU",
+      "name": "Assistant Hr",
+      "email": "assistanthr@portal.com",
+      "password": "admin123",
+      "role": "HR"
+    },
+    {
+      "id": "bjVX-4P3q3I",
+      "name": "Maya Devi",
+      "email": "mayadevi@gmail.com",
+      "password": "maya@1234",
+      "role": "EMP"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-101",
+      "empName": "Alice Johnson",
+      "dept": "Engineering",
+      "email": "alice@portal.com",
+      "password": "alice123",
+      "isFirstLogin": false,
+      "phone": "+91 98765 43210",
+      "address": "Bengaluru, India"
+    },
+    {
+      "id": "EMP-102",
+      "empName": "Rahul Mehta",
+      "dept": "HR",
+      "email": "rahul@portal.com",
+      "password": "rahul123",
+      "isFirstLogin": true,
+      "phone": "+91 99887 66554",
+      "address": "Pune, India"
+    },
+    {
+      "empId": "Emp103",
+      "empName": "Arun",
+      "dept": "Engineering",
+      "email": "Arun@gmail123.com",
+      "password": "Arun@1234",
+      "isFirstLogin": false,
+      "phone": "9444657879",
+      "address": "",
+      "id": "UHwcA6sdKjA"
+    },
+    {
+      "empId": "Emp-104",
+      "empName": "Akhil",
+      "dept": "IT",
+      "email": "Akhil@gmail.com",
+      "password": "Akhil@123",
+      "isFirstLogin": true,
+      "phone": "",
+      "address": "",
+      "id": "PHr1vUwsoy4"
+    },
+    {
+      "id": "nXl-XC7IBWo",
+      "empId": "Emp-105",
+      "empName": "Maya Devi",
+      "dept": "Engineering",
+      "email": "mayadevi@gmail.com",
+      "password": "maya@1234",
+      "isFirstLogin": true,
+      "phone": "9877745678",
+      "address": "maya vihar,bangalore"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "1",
+      "empId": "EMP-101",
+      "empName": "Alice Johnson",
+      "type": "Casual Leave",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-03",
+      "reason": "Family function",
+      "status": "Accepted"
+    },
+    {
+      "id": "2",
+      "empId": "EMP-102",
+      "empName": "Rahul Mehta",
+      "type": "Sick Leave",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-05",
+      "reason": "Medical rest",
+      "status": "Accepted"
+    },
+    {
+      "empId": "UHwcA6sdKjA",
+      "empName": "Arun",
+      "type": "Casual Leave",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-24",
+      "reason": "casual",
+      "status": "Accepted",
+      "id": "mLK0IhfUFko"
+    },
+    {
+      "empId": "UHwcA6sdKjA",
+      "empName": "Arun",
+      "type": "Sick Leave",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-23",
+      "reason": "Fever",
+      "status": "Rejected",
+      "id": "txrn6TiTZW0"
+    },
+    {
+      "empId": "UHwcA6sdKjA",
+      "empName": "Arun",
+      "type": "Paid Leave",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-11",
+      "reason": "fever",
+      "status": "Pending",
+      "id": "wRJGTfAuASE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
